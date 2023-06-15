@@ -12,6 +12,25 @@ a {
   color: #00acc1;
 }
 
+a:hover,
+a:active,
+a:focus {
+  color: #005c6f;
+}
+
+code {
+  background-color: #e6e6e6;
+}
+
+.main-title {
+  margin: 5px 0 10px;
+  font-family: sans-serif;
+}
+
+.footer {
+    margin-bottom: 40px;
+}
+
 .card {
   position: relative;
   display: flex;
