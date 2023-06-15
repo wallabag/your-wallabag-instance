@@ -27,3 +27,16 @@ a {
 .logo {
   margin: 0 auto;
 }
+
+.bottom-links {
+  display: flex;
+  margin: 10px;
+  padding: 0;
+  justify-content: center;
+  list-style: none;
+}
+
+.bottom-link-item:not(:last-of-type)::after {
+  margin-right: 5px;
+  content: " - ";
+}
