@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  background-color: #fafafa;
+}
+
+a {
+  color: #00acc1;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #005c6f;
+}
+
+code {
+  background-color: #e6e6e6;
+}
+
+.main-title {
+  margin: 5px 0 10px;
+  font-family: sans-serif;
+}
+
+.footer {
+    margin-bottom: 40px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  margin: 20px auto ;
+  padding: 24px;
+  max-width: 370px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 3px 1px -2px rgba(0,0,0,.2);
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.bottom-links {
+  display: flex;
+  margin: 10px;
+  padding: 0;
+  justify-content: center;
+  list-style: none;
+}
+
+.bottom-link-item:not(:last-of-type)::after {
+  margin-right: 5px;
+  content: " - ";
+}
